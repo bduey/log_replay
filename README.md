@@ -33,3 +33,5 @@ $scriptName --file <file_name> --server <server_address> [--delay <N>] [--port <
   *./syslog_replay.pl --file bluecoat.log --server 1.2.3.4 --port 514 --tcp*
 
 I have included some sample files (.log) of different types. Simply insert the one you'd like to use after the --file option.
+
+# Acknowledgement
