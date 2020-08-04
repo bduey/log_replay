@@ -18,8 +18,8 @@ $scriptName --file <file_name> --server <server_address> [--delay <N>] [--port <
   --tcp       Use TCP instead of UDP.
   --version   Print this script's version and exit.\n");
 Examples:
-  Send bluecoat sample logs to localhost on UDP\514 every 1 second: 
-  # syslog_replay.pl --file bluecoat.log --server 127.0.0.1 --delay 1000 --port 514
+  #Send bluecoat sample logs to localhost on UDP\514 every 1 second: 
+  ./syslog_replay.pl --file bluecoat.log --server 127.0.0.1 --delay 1000 --port 514
   Send bluecoat sample logs to 1.2.3.4 on TCP/514
   # syslog_replay.pl --file bluecoat.log --server 1.2.3.4 --port 514 --tcp
 
