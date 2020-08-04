@@ -1,11 +1,13 @@
 **Legal Stuff:**
+
 These files are **FREE**; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; version 3.
 
 These files are distributed in the hope that it will be useful, but **WITHOUT ANY WARRANTY**; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details
 
 **NEVER BLINDLY RUN ANY SCRIPT, CONFIG FILE OR APP WITHOUT FIRST VERIFYING IT WILL DO WHAT IS EXPECTED**
 
-Usage:
+**Usage:**
+
 $scriptName --file <file_name> --server <server_address> [--delay <N>] [--port <port>] [--tcp]
   --delay <N> The number of milliseconds to wait between the replay of each message.
   --help      Print this help text and exit
@@ -17,6 +19,7 @@ $scriptName --file <file_name> --server <server_address> [--delay <N>] [--port <
   --server <server_address>      The hostname or IP address of the server to send the messages to.
   --tcp       Use TCP instead of UDP.
   --version   Print this script's version and exit.\n");
+  
   **Examples:**
   
   - Send bluecoat sample logs to localhost on UDP\514 every 1 second: 
