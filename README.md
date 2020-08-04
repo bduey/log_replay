@@ -1,4 +1,4 @@
-# Log Replay
+## Log Replay
 
 **Legal Stuff**
 
@@ -8,7 +8,7 @@ These files are distributed in the hope that it will be useful, but **WITHOUT AN
 
 **NEVER BLINDLY RUN ANY SCRIPT, CONFIG FILE OR APP WITHOUT FIRST VERIFYING IT WILL DO WHAT IS EXPECTED**
 
-# Usage
+## Usage
 
 $scriptName --file <file_name> --server <server_address> [--delay <N>] [--port <port>] [--tcp]
   --delay <N> The number of milliseconds to wait between the replay of each message.
@@ -34,4 +34,10 @@ $scriptName --file <file_name> --server <server_address> [--delay <N>] [--port <
 
 I have included some sample files (.log) of different types. Simply insert the one you'd like to use after the --file option.
 
-# Acknowledgement
+## Acknowledgement
+
+[Stephen Workman] 
+(https://github.com/mrworkman)
+
+## License
+
